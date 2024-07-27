@@ -48,6 +48,11 @@ const services = [
     title: "Web Developer",
     icon: web,
   },
+  {
+    title: "Software Developer",
+    icon: web,
+  },
+  
   
   {
     title: "Backend Developer",
@@ -76,6 +81,10 @@ const technologies = [
   {
     name: "Redux Toolkit",
     icon: redux,
+  },
+  {
+    name: "TypeScript",
+    icon: typescript,
   },
   {
     name: "Tailwind CSS",
