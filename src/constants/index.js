@@ -54,10 +54,7 @@ const services = [
   },
   
   
-  {
-    title: "Backend Developer",
-    icon: backend,
-  },
+ 
  
 ];
 
@@ -112,14 +109,14 @@ const technologies = [
 const experiences = [
   {
     title: "Front-End  Developer",
-    company_name: "Nouviex",
+    company_name: "Nouviex Technologies",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "October 2023- Present",
+    date: "October 2023- March-2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Developed a cab booking website using React.js, ensuring a seamless user experience.",
+      "Collaborated with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Established CORS (Cross-Origin Resource Sharing) and integrated with the back-end using Fetch API.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
@@ -155,13 +152,17 @@ const testimonials = [
 
 const projects = [
   {
-    name: "To-do List",
+    name: "Carepulse Patient App",
     description:
-      "A sleek TodoLIST app crafted with React.js and enhanced with the modern styling of Tailwind CSS for a seamless and visually appealing task management experience.",
+      "A modern web application for patient management and appointment scheduling, built with Next.js, featuring user authentication and admin controls.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
+      },
+      {
+        name: "next",
+        color: "green-text-gradient",
       },
       
       {
@@ -170,7 +171,7 @@ const projects = [
       },
     ],
     image: todo,
-    source_code_link: "https://github.com/Convixt/to-do-list.io.git",
+    source_code_link: "https://github.com/Convixt/Patient_Management_App",
   },
   {
     name: "Weather App",
