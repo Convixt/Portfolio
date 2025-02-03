@@ -38,8 +38,8 @@ const Contact = () => {
 
     emailjs
       .send(
-        import.meta.env.service_hg4be9c,
-        import.meta.env.template_mm3ekoo,
+        'service_pq1ow1n',
+        'template_5wh4yuu',
         {
           from_name: form.name,
           to_name: "Nishith Pandey",
@@ -47,7 +47,7 @@ const Contact = () => {
           to_email: "pnishith215@gmail.com`",
           message: form.message,
         },
-        import.meta.env.x9Zo-v3cdldL3zKql
+        'aDiuL7aagzA5RGH6J'
       )
       .then(
         () => {
@@ -55,9 +55,9 @@ const Contact = () => {
           alert("Thank you. I will get back to you as soon as possible.");
 
           setForm({
-            name: "",
-            email: "",
-            message: "",
+            name: '',
+            email: '',
+            message: '',
           });
         },
         (error) => {
